@@ -1,0 +1,30 @@
+<div class="appointmenthistory">
+
+<h1>Appointment History Of User</h1>
+
+
+<input type="text" #username>
+
+<button (click)="getPatients4(username.value)">Search </button>
+
+
+<div *ngFor="let x of allPatients">
+    <table style="font-weight:bolder ; ">
+       
+            <tr>Id:{{x.patientId}}</tr>
+            <tr>Name:{{x.patientName}}</tr>
+            <tr>City:{{x.patientCity}}</tr>
+            <tr>Age:{{x.patientAge}}</tr>
+            <tr>Gender:{{x.patientGender}}</tr>
+            <tr>Disease:{{x.patientDisease}}</tr>
+            <tr>PhoneNumber:{{x.patientPhoneNumber}}</tr>
+            <tr>BloodGroup:{{x.patientBloodGroup}}</tr>
+            <br/>
+            <button type="submit" class="btn btn-primary">Feedback</button>
+    </table>
+</div>
+
+
+
+
+</div>

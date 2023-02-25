@@ -1,0 +1,17 @@
+.appointmenthistory{
+
+
+
+
+    border: rgb(65, 11, 11) 3px solid;
+    color: rgb(10, 10, 7);
+    font-size:medium;
+    background-color:rgb(202, 248, 200);
+    width: 950px;
+    height: 500px;
+    border-radius: 1%;
+    background-image: url('/assets/image/Bg2.jpg');
+    background-size: cover;
+
+
+}

@@ -1,0 +1,20 @@
+
+    <button (click)="getAllHospitals()" >View All Hospital</button>
+    
+    <div *ngFor="let allHospital of allHospital">
+        <table>
+      <tr>
+        <td> <img src="/assets/images/{{allHospital.imageName}}" width="90px" height="100px"></td> 
+
+<div>HospitalName: {{allHospital.hospitalName}}
+    <button (click)="movetoPage1()">View Hospital</button>
+    
+</div>
+
+
+<div>State: {{allHospital.state}}</div>
+<div>City: {{allHospital.city}}</div>
+<div>Address: {{allHospital.address}}</div>
+<div>HospitalRating: {{allHospital.hospitalRating}}</div>
+</tr>
+</table>
